@@ -48,6 +48,7 @@ export default function App() {
   }
 
   return (
+    <>
       <Navbar bg='light'>
         <Container>
           <Nav defaultActiveKey='/' onSelect={select} className='me-auto'>
@@ -112,5 +113,6 @@ export default function App() {
       <Container className='my-3 center-text'>
         {page}
       </Container>
+    </>
   )
 }
