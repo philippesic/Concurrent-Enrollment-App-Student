@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import { Hooks, Documentation } from './utils'
+import CCESteps from './pages/student/CCEsteps'
 
 
 import Authenticator from './components/Authenticator'
